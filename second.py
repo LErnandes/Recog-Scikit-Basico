@@ -1,12 +1,12 @@
 import cv2
 import numpy as np
-from sklearn.svm import SVC
 import os
+from sklearn.svm import SVC
 from sklearn import *
 
 # Declara a captura de vídeo e já coloca a imagem capturada em 10x10
-#frame1 = cv2.imread('nome_da_imagem.extensão')
-frame = cv2.imread('carteira.jpg')
+#frame = cv2.imread('nome_da_imagem.extensão')
+frame = cv2.imread('image.jpg')
 frame1 = cv2.resize(frame, (10, 10))
 
 # Lista as imagens
